@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+
+h1 {
+  font-family: 'Valorant', sans-serif;
+  margin-top: 60px;
+  color: white;
+}
+
+#container {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 45%;
+  height: 90%;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+img{
+  width: 60px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+label, input {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+input {
+  border-radius: 10px;
+}
+
+input[type='submit'] {
+  background-color: #ff4655;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#profilepic {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.profile {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.7rem;
+  margin: 10px;
+}
